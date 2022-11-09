@@ -1,0 +1,29 @@
+name: Mahesh
+age: 25
+address: "Delhi: dongri"
+active: true
+key:
+    key: value
+    key2: 33
+    key3:
+        key: value
+        key2: value
+jsonobj: {key: value, key2: 33, key3: {key: value, key2: value}}
+array:
+    - item1
+    - item2
+    - {key: value}
+jsonarray: [item1, item2]
+objarray:
+    - key: value
+      key3: value
+    - key2: value
+      key: value
+longtext: >
+    jflksdjflsjflsj ljaslfjslfjsl
+    djflajflsjfl fjsljflasfjlsjfjf
+    flsjflsjflasjfl
+longtextq: |
+    jflksdjflsjflsj ljaslfjslfjsl
+    djflajflsjfl fjsljflasfjlsjfjf
+    flsjflsjflasjfl
