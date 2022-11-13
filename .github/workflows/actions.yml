@@ -10,11 +10,11 @@ jobs:
           ls -a
           # git fetch
           # git Checkout
-          echo $github_sha
-          echo $github_repository
-          echo $github_workspace
+          echo $GITHUB_SHA
+          echo $GITHUB_REPOSITORY
+          echo $GITHUB_WORKSPACE
           echo "{{ github.token }}"
-          # git clone git@github:$github_repository
+          # git clone git@github:$Github_repository
           # git Checkout $github_sha
       - name: Checkout
         uses: actions/checkout@v1
