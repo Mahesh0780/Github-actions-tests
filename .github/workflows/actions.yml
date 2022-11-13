@@ -8,6 +8,14 @@ jobs:
         run: |
           pwd
           ls -a
+          # git fetch
+          # git Checkout
+          echo $github_sha
+          echo $github_repository
+          echo $github_workspace
+          echo "{{ github.token }}"
+          # git clone git@github:$github_repository
+          # git Checkout $github_sha
       - name: Checkout
         uses: actions/checkout@v1
       - name: List Files After Checkout
